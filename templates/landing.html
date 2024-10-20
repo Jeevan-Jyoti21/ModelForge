@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div id="Side_panel">
+        <div id="logo">
+            <h1>ModelForge</h1>
+        </div>
+        <div id="menu">
+            <button onclick="fetchMessage()">Generate Code</button>
+        </div>
+    </div>
+    <div id="Main">
+        <h1>Code Generator</h1>
+        <p>Generate code for your project</p>
+        <p id="PRT"></p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

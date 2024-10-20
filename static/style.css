@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+}
+#Side_panel{
+    width: 25vw;
+    height: 100vh;
+    background-color: #1132ec;
+}
+#Main{
+    width: 75vw;
+    height: 100vh;
+    background-color: rgb(16, 197, 230);
+    text-align: center;
+}
